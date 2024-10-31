@@ -1,0 +1,52 @@
+.content-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+  }
+  
+  .header {
+    margin-top: 0; // Retire la marge supérieure
+    margin-bottom: 20px; // Ajuste la marge inférieure
+    text-align: center;
+  }
+  
+  .title {
+    position: relative; // Utilise "relative" pour éviter que le titre flotte en haut de l'écran
+    top: 0;
+    padding-top: 20px; // Ajoute une marge intérieure en haut
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .subTitle {
+    color: gray;
+    font-size: 0.9rem;
+  }
+  
+  .signinLink {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-content: center;
+    position: absolute;
+    justify-content: center;
+    left:0;
+    bottom:0;
+    width: 80%;
+    right:0;
+    p{
+      font-size: 0.9rem;
+    }
+    a{
+      text-decoration: none;
+    }
+  
+  }
+  
+  ion-item {
+    --background: #f1f1f1;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  
